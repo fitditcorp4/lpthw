@@ -1,18 +1,23 @@
-my_name = 'Nkem C. Omede'
-my_age = 43 # This is for real
-my_height = 178 #centimeters
-my_weight = 75 #kg
-my_eyes = 'brown'
-my_teeth = 'white'
-my_hair = 'black'
+name = 'Nkem C. Omede'
+age = 43 # This is for real
+height = 178 #centimeters
+weight = 75 #kg
+eyes = 'brown'
+teeth = 'white'
+hair = 'black'
 
-print(f"Let's talk about {my_name}.")
-print(f"He's {my_height} cm tall.")
-print(f"He's {my_weight} kg heavy.")
+print(f"Let's talk about {name}.")
+print(f"He's {height} cm tall.")
+print(f"He's {weight} kg heavy.")
 print("Actually that's not too heavy.")
-print(f"He's got {my_eyes} eyes and {my_hair} hair.")
-print(f"His teeth are usually {my_teeth} depending on the coffee.")
+print(f"He's got {eyes} eyes and {hair} hair.")
+print(f"His teeth are usually {teeth} depending on the coffee.")
 
 #This line is tricky, try to get it exactly right
-total = my_age + my_height + my_weight
-print(f"if I add {my_age}, {my_height}, and {my_weight} I get {total}.")
+total = age + height + weight
+print(f"if I add {age}, {height}, and {weight} I get {total}.")
+
+#Convert inches to centimeters
+a = "height in inches"
+b = "height in cm"
+b = a * 2.54
